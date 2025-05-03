@@ -420,7 +420,7 @@ class ChatUI:
     """Gerencia a interface do usuário do chat."""
     def __init__(self):
         st.set_page_config(
-            page_title="Chat IA Contextual",
+            page_title="Bot English c/ IA",
             page_icon="🤖",
             layout="centered",
             initial_sidebar_state="auto"
@@ -471,8 +471,8 @@ class ChatUI:
     def render_header(self):
         """Renderiza o cabeçalho da página."""
         st.markdown('<div class="chat-header">', unsafe_allow_html=True)
-        st.title("🤖 Chat com IA (Hugging Face)")
-        st.markdown("Converse com um modelo de chat mais fluido (BlenderBot)")
+        st.title("🤖 Bot English (c/ IA Hugging Face)")
+        st.markdown("Converse em inglês, com um modelo de chat mais fluído (BlenderBot)")
         st.markdown('</div>', unsafe_allow_html=True)
         
     def render_conversation(self, history: List[dict]):
@@ -601,3 +601,45 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+st.markdown("""
+<hr>
+<div style="text-align: center;">
+    <h4>💬 Bot English: em Python, Streamlit e IA.</h4>
+    Por <strong>Ary Ribeiro</strong>. Contato via email 📧: <a href="mailto:aryribeiro@gmail.com">aryribeiro@gmail.com</a><br><br>
+    <em>Obs.: o app foi testado apenas em computador. No smartphone,<br>
+    procure ativar o recurso <strong>"Versão para Computador"</strong> do navegador.</em>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<style>
+    .main {
+        background-color: #ffffff;
+        color: #333333;
+    }
+    .block-container {
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+    }
+    /* Esconde completamente todos os elementos da barra padrão do Streamlit */
+    header {display: none !important;}
+    footer {display: none !important;}
+    #MainMenu {display: none !important;}
+    /* Remove qualquer espaço em branco adicional */
+    div[data-testid="stAppViewBlockContainer"] {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    div[data-testid="stVerticalBlock"] {
+        gap: 0 !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    /* Remove quaisquer margens extras */
+    .element-container {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+</style>
+""", unsafe_allow_html=True)

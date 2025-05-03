@@ -605,7 +605,7 @@ if __name__ == "__main__":
 st.markdown("""
 <hr>
 <div style="text-align: center;">
-    <h4>💬 Bot English: chatbot c/ Inteligência Artificial, em Python e Streamlit</h4>
+    <h4>💬 Chatbot c/ Inteligência Artificial, em Python e Streamlit</h4>
     Por <strong>Ary Ribeiro</strong>. Contato via email 📧: <a href="mailto:aryribeiro@gmail.com">aryribeiro@gmail.com</a><br><br>
     <em>Obs.: o app foi testado apenas em computador. No smartphone,<br>
     procure ativar o recurso <strong>"Versão para Computador"</strong> do navegador.</em>

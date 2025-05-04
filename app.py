@@ -606,9 +606,9 @@ st.markdown("""
 <hr>
 <div style="text-align: center;">
     <h4>💬 Chatbot c/ Inteligência Artificial, em Python e Streamlit</h4>
-    Por <strong>Ary Ribeiro</strong>. Contato via email 📧: <a href="mailto:aryribeiro@gmail.com">aryribeiro@gmail.com</a><br><br>
-    <em>Obs.: o app foi testado apenas em computador. No smartphone,<br>
-    procure ativar o recurso <strong>"Versão para Computador"</strong> do navegador.</em>
+    Por <strong>Ary Ribeiro</strong>. Contato via email 📧: <a href="mailto:aryribeiro@gmail.com">aryribeiro@gmail.com</a><br>
+    <em>BÔNUS: clique <a href="https://drive.google.com/uc?id=1umCdV4Cj0JgvXPV5IBymfDtUEpvmsZyd"><strong>AQUI</strong></a> para baixar um pacote com<br>
+    mais de 1800 cognatos para treinar inglês.<br>
 </div>
 """, unsafe_allow_html=True)
 

@@ -1,3 +1,6 @@
+Obs.: caso o app esteja no modo "sleeping" (dormindo) ao entrar, basta clicar no botão que estará disponível e aguardar, para ativar o mesmo.
+![print](https://github.com/user-attachments/assets/cfe1ab96-c23b-464d-8fb7-cde54a53ab1b)
+
 # Bot English (chatbot de IA c/ BlenderBot via Hugging Face)
 
 Este é um aplicativo de chat interativo construído com **Streamlit**, utilizando o modelo **BlenderBot-400M-distill** da **Hugging Face**. Ele mantém o histórico de conversas e utiliza cache em banco de dados SQLite para otimizar o desempenho.
